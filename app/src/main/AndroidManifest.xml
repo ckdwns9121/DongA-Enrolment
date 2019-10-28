@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.changjun.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".activity.BasketActivity"></activity>
+        <!-- API 28 버전 이후 아파치 지원 중단 해결용 -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity android:name=".activity.ScheduleActivity" />
+        <activity android:name=".activity.PCverActivity" />
+        <activity android:name=".activity.DSISHomeActivity" />
+        <activity android:name=".activity.ListActivity" />
+        <activity android:name=".activity.MenuActivity" />
+        <activity
+            android:name=".activity.StartActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".activity.SugangEnrollmentActivity" />
+        <activity android:name=".activity.TimetableActivity" />
+    </application>
+
+</manifest>

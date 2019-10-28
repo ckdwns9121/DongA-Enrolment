@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#27B8FF</color>
+    <color name="colorPrimaryDark">#0277BC</color>
+    <color name="colorAccent">#D8D8D8</color>
+    <color name="colorTest">#2260AD</color>
+    <color name="colorMonday">#FF5868</color>
+    <color name="colorTuesday">#81D694</color>
+    <color name="colorWednesday">#FFB163</color>
+    <color name="colorThursday">#FFFF69</color>
+    <color name="colorFriday">#C07AFF</color>
+    <color name="colorPrimarySimple">#5C9CF3</color>
+    <color name="colorTest2">#76AD73</color>
+</resources>

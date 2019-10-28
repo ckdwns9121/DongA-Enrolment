@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="college">
+        <item>대학을 선택해주세요</item>
+        <item>인문과학대학</item>
+        <item>자연과학대학</item>
+        <item>생활과학대학</item>
+        <item>법과대학</item>
+        <item>사회과학대학</item>
+        <item>경영대학</item>
+        <item>생명자원과학대학</item>
+        <item>공과대학</item>
+        <item>건축디자인패션대학</item>
+        <item>디자인환경대학</item>
+        <item>예술체육대학</item>
+        <item>스포츠과학대학</item>
+        <item>예술대학</item>
+        <item>건강과학대학</item>
+        <item>의과대학</item>
+        <item>글로벌비즈니스대학</item>
+        <item>융합교양대학</item>
+        <item>기초교양대학</item>
+        <item>중국일본학부</item>
+        <item>석당인재학부</item>
+        <item>간호학부</item>
+        <item>국제학부</item>
+        <item>자기설계연계</item>
+    </string-array>
+    <string-array name="Basic1">
+        <item>학부(과)를선택해주세요</item>
+    </string-array>
+    <string-array name="Basic2">
+        <item>전공을선택해주세요</item>
+    </string-array>
+
+</resources>

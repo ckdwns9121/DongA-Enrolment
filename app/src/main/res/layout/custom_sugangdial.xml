@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#64b5f6"
+        android:orientation="vertical"
+        android:padding="1dp" >
+
+        <LinearLayout
+            android:id="@+id/test"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#479eff"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/app_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="모바일 수강신청 알림"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/changjun"
+            android:layout_width="match_parent"
+            android:layout_height="365dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/weshow_info1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:padding="4dp"
+                android:text="※ 아래 내용을 동의하고 사용 바람"
+                android:textColor="#ff0000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="24dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/weshow_info3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1. 해당 기능은 베타 테스트 버전이며 '재수강 신청기간'은 공정성을 위해 해당 기능을 제공하지 않습니다."
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/weshow_info3-2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2. 동아대학교 수강신청 (sugang.donga.ac.kr) 의 강의 목록을 기반으로 하는 실시간 데이터 베이스를 사용하며 일부 과목(e러닝 등)은 검색되지 않을 수도 있습니다."
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/weshow_info3-3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="3.'재수강'기능은 개발중에 있어 지원이 어려우니 '재수강'하실 과목은 동아대학교 수강신청(sugang.donga.ac.kr)에서 재수강 신청을 하시기 바랍니다."
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/weshow_info4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="4. 해당 기능은 안정적인 네트워크 연결 환경에서 사용을 권하며, 사용 간 발생한 문제에 대한 책임은 사용자에게 있습니다."
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/weshow_info5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="* 수간신청 후 동아대학교 수강신청 (sugang.donga.ac.kr) 에서 꼭! 정상적으로 수강신청이 되었는지 확인바랍니다."
+                        android:textColor="#000000"
+                        android:textSize="13sp"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#FFFFFF"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/app_cancel"
+                android:layout_width="0px"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="#479eff"
+                android:text="위 내용을 확인"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

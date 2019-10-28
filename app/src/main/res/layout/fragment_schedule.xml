@@ -1,0 +1,1746 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.15"
+        android:orientation="vertical">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_blue_light">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="월"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="화"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="수"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="목"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="금"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_light"
+                android:gravity="right"
+                android:text="8:00"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/monday1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="#ffffff"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/tuesday1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/wednseday1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/thursday1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/friday1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_light"
+                android:gravity="right"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/monday2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/tuesday2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/wednseday2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/thursday2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/friday2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_light"
+                android:gravity="right"
+                android:text="9:00"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/monday3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/tuesday3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/wednseday3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/thursday3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/friday3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_light"
+                android:gravity="right"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/monday4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/tuesday4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/wednseday4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/thursday4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/friday4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_light"
+                android:gravity="right"
+                android:text="10:00"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/monday5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/tuesday5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/wednseday5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/thursday5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/friday5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_light"
+                android:gravity="right"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/monday6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/tuesday6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/wednseday6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/thursday6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/friday6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_light"
+                android:gravity="right"
+                android:text="11:00"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/monday7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/tuesday7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/wednseday7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/thursday7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/friday7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_light"
+                android:gravity="right"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/monday8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/tuesday8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/wednseday8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/thursday8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/friday8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_light"
+                android:gravity="right"
+                android:text="12:00"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/monday9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/tuesday9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/wednseday9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/thursday9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/friday9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_light"
+                android:gravity="right"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/monday10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/tuesday10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/wednseday10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/thursday10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/friday10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_light"
+                android:gravity="right"
+                android:text="13:00"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/monday11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/tuesday11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/wednseday11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/thursday11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/friday11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_light"
+                android:gravity="right"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/monday12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/tuesday12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/wednseday12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/thursday12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/friday12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_light"
+                android:gravity="right"
+                android:text="14:00"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/monday13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/tuesday13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/wednseday13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/thursday13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/friday13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_light"
+                android:gravity="right"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/monday14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/tuesday14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/wednseday14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/thursday14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/friday14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_light"
+                android:gravity="right"
+                android:text="15:00"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/monday15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/tuesday15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/wednseday15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/thursday15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/friday15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_light"
+                android:gravity="right"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/monday16"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/tuesday16"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/wednseday16"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/thursday16"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/friday16"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_light"
+                android:gravity="right"
+                android:text="16:00"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/monday17"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/tuesday17"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/wednseday17"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/thursday17"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/friday17"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_light"
+                android:gravity="right"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/monday18"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/tuesday18"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/wednseday18"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/thursday18"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/friday18"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_light"
+                android:gravity="right"
+                android:text="17:00"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/monday19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/tuesday19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/wednseday19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/thursday19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/friday19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_light"
+                android:gravity="right"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/monday20"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/tuesday20"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/wednseday20"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/thursday20"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+
+            <TextView
+                android:id="@+id/friday20"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape2"
+                android:maxWidth="1dp"
+                android:maxHeight="1dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="1dp" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
