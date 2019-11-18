@@ -1,0 +1,22 @@
+[로그인]
+HttpClient 사용
+jerico paser 이용해 hidden value 파싱후 post로 id pw 같이 넘겨줌
+
+[강의시간표]
+HttpClient 사용
+jerico paser 이용해 hidden value 파싱후 post로 단과대학,학과 넘겨줌
+
+[수강신청]
+HttpClient 사용
+과목코드, 분반 post로 넘겨줌
+
+[수강취소]
+HttpClient 사용
+과목코드, 분반 post로 넘겨줌
+
+[시간표생성]
+수강코드 파싱후 시간부분 추출
+그리드에 과목 생성
+
+ 
+기본적인 웹패킷 분석은 Fidder4 사용
