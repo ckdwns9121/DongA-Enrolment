@@ -3,4 +3,4 @@
 
 
 
-<img src="https://user-images.githubusercontent.com/40492343/69025588-013e4e80-0a0b-11ea-923e-3337e0ec6d16.png" width="90%"></img>
+<img src="https://user-images.githubusercontent.com/40492343/69025588-013e4e80-0a0b-11ea-923e-3337e0ec6d16.png" width="100%"></img>
