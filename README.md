@@ -10,8 +10,10 @@
  
 라이브러리:
 
-    HttpClient 4.2 , Jericho 3.1
-    
+    HttpClient 4.2 : https://hc.apache.org/httpcomponents-client-4.2.x/index.html
+    Jericho 3.1 : https://mvnrepository.com/artifact/net.htmlparser.jericho/jericho-html/3.1
+
+
 　
     
 
