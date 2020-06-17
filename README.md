@@ -2,14 +2,26 @@
 =============
 
 
-개발요약:
+요약:
 
-    JAVA8을 이용한 Async http통신 프로그래밍.
+    동아대학교 안드로이드 모바일 수강신청.
+    수강할 과목을 검색후 장바구니에 담아서 원클릭 수강신청
+    수강인원 간단히 확인 가능
+    취소할 과목 수강취소 가능
+    시간표 생성 가능
     
-　
+ 　
+    　
 라이브러리:
-    [HttpClient 4.2] : (https://hc.apache.org/httpcomponents-client-4.2.x/index.html)
-    [Jericho 3.1]  (https://mvnrepository.com/artifact/net.htmlparser.jericho/jericho-html/3.1)
+    
+    HttpClient 4.2 : http 통신을 위해 사용
+    Jericho 3.1 :html 파싱을 위해 사용
+
+　
+     
+링크
+[HttpClient 4.2] : (https://hc.apache.org/httpcomponents-client-4.2.x/index.html)
+[Jericho 3.1]  (https://mvnrepository.com/artifact/net.htmlparser.jericho/jericho-html/3.1)
     
     
     
