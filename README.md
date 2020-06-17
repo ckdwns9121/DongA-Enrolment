@@ -14,7 +14,14 @@
     Jericho 3.1 : <https://mvnrepository.com/artifact/net.htmlparser.jericho/jericho-html/3.1>
 
 
-　
+[link keyword][id]
+
+[id]: URL "Optional Title here"
+
+// code
+Link: [Google][googlelink]
+
+[googlelink]: https://google.com "Go google"　
     
 
 
