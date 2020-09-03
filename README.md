@@ -23,4 +23,4 @@
 ### 스크린샷
 
 <img src="https://user-images.githubusercontent.com/40492343/69025588-013e4e80-0a0b-11ea-923e-3337e0ec6d16.png" width="50%"></img>
-![screen-0](https://user-images.githubusercontent.com/40492343/92086218-d770df80-ee04-11ea-85f0-5e959f101a27.jpg)
+<img src="https://user-images.githubusercontent.com/40492343/92086218-d770df80-ee04-11ea-85f0-5e959f101a27.jpg" width="50%"></img>
