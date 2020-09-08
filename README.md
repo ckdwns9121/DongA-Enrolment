@@ -19,7 +19,7 @@
   - APK File: [link](https://play.google.com/store/apps/details?id=com.sugangApp.changjun.myapplication)
 
 
-### 스크린샷
+### 4. 스크린샷
 
 <img src="https://user-images.githubusercontent.com/40492343/69025588-013e4e80-0a0b-11ea-923e-3337e0ec6d16.png" width="202px" height="318px"></img>
 <img src="https://user-images.githubusercontent.com/40492343/92086218-d770df80-ee04-11ea-85f0-5e959f101a27.jpg" width="202px" height="318px"></img>
