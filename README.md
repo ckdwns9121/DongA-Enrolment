@@ -13,7 +13,7 @@
    - 수강신청한 시간표 생성.   
    - 수강취소 기능.   
 　     
-### 3. 참고링크
+### 3. 사용한 라이브러리
   - HttpClient 4.2: [link](https://hc.apache.org/httpcomponents-client-4.2.x/index.html)   
   - Jericho 3.1: [link](https://mvnrepository.com/artifact/net.htmlparser.jericho/jericho-html/3.1)   
   - APK File: [link](https://play.google.com/store/apps/details?id=com.sugangApp.changjun.myapplication)
