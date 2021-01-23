@@ -7,9 +7,8 @@
 
 ## 개발 동기
 ```
- 동아대학교 수강신청 시스템은 대부분 학교가 가지고 있는 장바구니 시스템이 없을 뿐더러 PC기반 시스템이여서 많은 불편함이 있다.  
+ 동아대학교 수강신청 시스템은 대부분 학교가 가지고 있는 장바구니 시스템이 없을 뿐더러 PC기반 시스템이여서 많은 불편함이 있다.   
  이를 해결하기 위해 안드로이드 스튜디오를 활용해 모바일 기반 장바구니 수강신청 시스템을 고안했다.   
-
 ```
 
 ## Tech
@@ -49,11 +48,11 @@
    장바구니에 담은 수강과목을 시간표로 볼 수 잇는 
 
 ### Screen Shots
-<p align="center"><img src="https://user-images.githubusercontent.com/40492343/92086553-49492900-ee05-11ea-826e-49ad9c2d4c4d.jpg" width="202px" height="318px"></img></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/40492343/92086553-49492900-ee05-11ea-826e-49ad9c2d4c4d.jpg" width="280px" height="500px"></img></p>
 
 ## 결과
    장바구니에 담은 과목들을 한번에 수강신청 한 
 
 ### Screen Shots
-<p align="center"><img src="https://user-images.githubusercontent.com/40492343/92086557-4a7a5600-ee05-11ea-9e69-0e3879633573.jpg" width="202px" height="318px"></img></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/40492343/92086557-4a7a5600-ee05-11ea-9e69-0e3879633573.jpg" width="280px" height="500px"></img></p>
 
