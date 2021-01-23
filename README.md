@@ -1,6 +1,6 @@
 <h1 align="center">동아대학교 모바일 수강신청</h1>
 
-<p align="center"><img src="https://user-images.githubusercontent.com/45222982/93844186-4a1ffd00-fcd7-11ea-8c83-46bb66d1f8ab.png" width="240" /></p>
+<p align="center"><img src="https://play-lh.googleusercontent.com/Xkhfw107OmQRO42432wJMVCCOSsJCzL3z0owyyIC9jskCuhps7qJ3ozchBAO0Pn5Xg=s180-rw" width="240" /></p>
 
 <p align="center">스마트한 동아인의 필수 App은 무엇? 바로 이것(This is)!</p>
 
