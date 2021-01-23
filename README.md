@@ -27,7 +27,10 @@
   시간표 경우의 수 자동생성 프로그램
 
 ### Screen Shots
-<p align="center"><img src="https://user-images.githubusercontent.com/45222982/93857691-f40e8200-fcf5-11ea-9e4f-f13ddaca4285.png" width="280" height="500"/> <img src="https://user-images.githubusercontent.com/45222982/93857700-f670dc00-fcf5-11ea-9a30-a4d41e9f9fe6.png" width="280" height="500"/></p>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/40492343/69025588-013e4e80-0a0b-11ea-923e-3337e0ec6d16.png" width="280px" height="500px"></img>
+<img src="https://user-images.githubusercontent.com/40492343/92086218-d770df80-ee04-11ea-85f0-5e959f101a27.jpg" width="280px" height="500px"></img>
+</p>
 
 ### Function
 
