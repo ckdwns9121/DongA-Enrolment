@@ -3,7 +3,7 @@
 <p align="center"><img src="https://play-lh.googleusercontent.com/Xkhfw107OmQRO42432wJMVCCOSsJCzL3z0owyyIC9jskCuhps7qJ3ozchBAO0Pn5Xg=s180-rw" width="240" /></p>
 
 
-<p align="center"><a href="https://play.google.com/store/apps/details?id=kr.co.thisis.dsisproject&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img src="https://user-images.githubusercontent.com/45222982/93845190-e26bb100-fcda-11ea-9dd3-737ffb68223a.png" width="240" /></a></p>
+<p align="center"><a href="https://play.google.com/store/apps/details?id=com.sugangApp.changjun.myapplication"><img src="https://user-images.githubusercontent.com/45222982/93845190-e26bb100-fcda-11ea-9dd3-737ffb68223a.png" width="240" /></a></p>
 
 ## 프로젝트 참가 이력
 - Thisis Backend
