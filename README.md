@@ -19,7 +19,7 @@
  - Jericho 3.1
 
 ## 로그인 
-  학번, 비밀번호를 입력하여 
+  - 학번, 비밀번호를 입력하여 로그인 성공시 서버 정보를 받아오는 뷰
 
 ### Screen Shots
 <p align="center">
@@ -32,26 +32,30 @@
 ## 강의시간표 조회
   - 개설된 수강목록을 조회할 수 있는 뷰.
   - 신청현황이 초과 되었을 시 알림
+  - 장바구니 담기 및 삭제
+  - 중복 시간표 필터링
   
 
 ### Screen Shots
 <p align="center"><img src="https://user-images.githubusercontent.com/40492343/92086531-451d0b80-ee05-11ea-9ff3-8d72d2c33d08.jpg" width="280px" height="500px"></img></p>
 
-### 장바구니
-  수강할 과목을 담을 장바구니 뷰
+## 장바구니
+  - 수강할 과목을 담을 장바구니 뷰
+  - 원클릭 수강신청 기능
+  - 이미 수강신청 되어있는 과목 필터링
   
 ### Screen Shots
 <p align="center"><img src="https://user-images.githubusercontent.com/40492343/92086546-477f6580-ee05-11ea-92bd-ec03eafbd78a.jpg" width="280px" height="500px"></img></p>
 
 
 ## 시간표
-   장바구니에 담은 수강과목을 시간표로 볼 수 잇는 
+   - 장바구니에 담은 수강과목을 시간표로 볼 수 잇는 뷰 
 
 ### Screen Shots
 <p align="center"><img src="https://user-images.githubusercontent.com/40492343/92086553-49492900-ee05-11ea-826e-49ad9c2d4c4d.jpg" width="280px" height="500px"></img></p>
 
 ## 결과
-   장바구니에 담은 과목들을 한번에 수강신청 한 
+   - 장바구니에 담은 과목들을 한번에 수강신청 한 결과
 
 ### Screen Shots
 <p align="center"><img src="https://user-images.githubusercontent.com/40492343/92086557-4a7a5600-ee05-11ea-9e69-0e3879633573.jpg" width="280px" height="500px"></img></p>
